@@ -21,6 +21,9 @@ Example request body:
 	"title": "Bought a turtle today!", 
 	"body": "His name is Jerry.", 
 	"labels": [
+		{
+			"name": "Jerry"
+		}
 	]
 }
 ```
@@ -34,6 +37,7 @@ Example request body:
 	"id": 12, 
 	"title": "Bought a TURTLE today!!! :)"
 }
+```
 
 ### Get Labels
 `GET /api/labels/`
