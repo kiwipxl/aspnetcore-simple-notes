@@ -34,6 +34,7 @@ namespace notes
 
         private static void AddNotesUnitTest(Models.DatabaseContext db)
         {
+            // Simple and quick unit test to verify API functionality
             db.Notes.RemoveRange(db.Notes);
             db.Labels.RemoveRange(db.Labels);
 
